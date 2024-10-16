@@ -37,26 +37,6 @@ endif
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-PRODUCT_PACKAGES += \
-    android.hardware.radio@1.6.vendor \
-    android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.secure_element@1.2.vendor \
-    android.hardware.wifi.hostapd@1.0.vendor \
-    android.system.net.netd@1.1.vendor \
-    vendor.qti.hardware.systemhelperaidl-V1-ndk.vendor
-
-PRODUCT_PACKAGES += \
-    android.hardware.radio.config-V2-ndk.vendor \
-    android.hardware.radio.data-V2-ndk.vendor \
-    android.hardware.radio.messaging-V2-ndk.vendor \
-    android.hardware.radio.modem-V2-ndk.vendor \
-    android.hardware.radio.network-V2-ndk.vendor \
-    android.hardware.radio.sap-V1-ndk.vendor \
-    android.hardware.radio.sim-V2-ndk.vendor \
-    android.hardware.radio.voice-V2-ndk.vendor \
-    android.hardware.radio-V2-ndk.vendor
-
 PRODUCT_VENDOR_PROPERTIES += \
     persist.radio.multisim.config=dsds \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
